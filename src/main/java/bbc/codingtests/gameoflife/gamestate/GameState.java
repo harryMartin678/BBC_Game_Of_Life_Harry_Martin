@@ -8,15 +8,15 @@ public interface GameState {
      * @param col
      * @return
      */
-    boolean isCellAliveAt(int row, int col);
+    public boolean isCellAliveAt(int row, int col);
 
     /**
      * @return Number of rows the game has
      */
-    int getRows();
+    public int getRows();
 
     /**
      * @return Number of columns the game has
      */
-    int getCols();
+    public int getCols();
 }
